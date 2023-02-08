@@ -1,1 +1,7 @@
 libgl
+torch
+torchvision
+opencv-python
+decorator==4.0.2
+moviepy==1.0.3
+tqdm==4.64.1
