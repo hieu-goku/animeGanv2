@@ -1,0 +1,7 @@
+torch
+torchvision
+cv2
+PIL
+moviepy
+shutil
+tqdm
