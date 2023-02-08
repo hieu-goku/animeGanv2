@@ -1,7 +1,6 @@
 torch
 torchvision
 opencv-python
-PIL
 moviepy
 shutil
 tqdm
