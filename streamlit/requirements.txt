@@ -4,3 +4,5 @@ opencv-python
 decorator==4.0.2
 moviepy==1.0.3
 tqdm==4.64.1
+RUN apt-get update ##[edited]
+RUN apt-get install ffmpeg libsm6 libxext6 -y
