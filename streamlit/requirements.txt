@@ -1,6 +1,6 @@
 torch
 torchvision
-cv2
+opencv-python
 PIL
 moviepy
 shutil
