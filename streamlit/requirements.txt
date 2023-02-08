@@ -1,7 +1,7 @@
-libgl
 torch
 torchvision
 opencv-python
+opencv-python-headless==4.7.0.68
 decorator==4.0.2
 moviepy==1.0.3
 tqdm==4.64.1
