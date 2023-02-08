@@ -5,6 +5,7 @@ import torch.nn as nn
 import urllib.request
 import cv2
 from tqdm import tqdm
+import streamlit as st
 
 HTTP_PREFIXES = [
     'http',
@@ -45,7 +46,7 @@ def load_checkpoint(model, checkpoint_dir, posfix=''):
     path = os.path.join(checkpoint_dir, f'{model.name}{posfix}.pth')
     return load_weight(model, path)
 
-
+@st.cache
 def load_weight(model, weight):
     if weight.lower() in SUPPORT_WEIGHTS:
         weight = _download_weight(weight)
